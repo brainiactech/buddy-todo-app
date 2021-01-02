@@ -38,3 +38,6 @@ Note: 2 to 4 in Step 4 applies to Todo as well
 1. You can create multiple users and todos at a time, keep adding users/todos and click Submit when you are done. 
 
 
+The web app is currently running on port 3001
+
+
