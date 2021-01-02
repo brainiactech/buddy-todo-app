@@ -27,19 +27,19 @@ class allUsers extends Component {
       isLoadingUsers: true
     })
 		axios
-      .get("/api/users/list")
+      .get(`${config.USER_API_BASE_URL}/api/users/list`)
       .then(({data}) => {
         this.setState({
           isLoadingUsers: false
         })
         const allUsers = data.data.users
-        const users = allUsers.map((usse) =>{
-          return {
-            name: usse.name,
-            id: usse.id
-          };
-        })
-        this.setState({users});
+        // const users = allUsers.map((usse) =>{
+        //   return {
+        //     name: usse.name,
+        //     id: usse.id
+        //   };
+        // })
+        this.setState({users: allUsers});
       })
       .catch(err => err);
 	  };
@@ -151,7 +151,6 @@ class allUsers extends Component {
 					  (
 						{
 						  id,
-						  key,
 						  name
 						},
 						i
@@ -160,8 +159,6 @@ class allUsers extends Component {
 						  <tr key={i}>
 							<td className="text-center">{i + 1}</td>
 							<td className="text-center">
-							  {key}
-							  <br />
                 <Link to={`/user-todos/${id}`}>
                  <S.Name>{name}</S.Name>
                </Link>

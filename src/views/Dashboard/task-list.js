@@ -14,7 +14,7 @@ const TaskList = ({ tasks, editTask, removeTask }) => (
 					</tr>
 				  </thead>
         <tbody>
-          {tasks.map(({ key, description }, index) => (
+          {tasks.map(({ description }, index) => (
             <tr key={`task-${index}`}>
               <td className="text-center">{index + 1}</td>
               <td className="text-center">{description}</td>

@@ -156,11 +156,11 @@ class Userform extends Component {
                   >
                     {edit ? (
                       <>
-                        <Icon type="edit" theme="outlined" /> Update Task
+                        <Icon type="edit" theme="outlined" /> Update User
                       </>
                     ) : (
                       <>
-                        <Icon type="plus" theme="outlined" /> Add Task
+                        <Icon type="plus" theme="outlined" /> Add User
                       </>
                     )}
                   </button>

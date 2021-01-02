@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {Provider} from "react-redux";
-import axios from "axios";
 import './styles/main.css'
 import "antd/dist/antd.css";
 import App from "./Routes";
 import registerServiceWorker from "./registerServiceWorker";
 import './utils/Interceptors'
-
-axios.defaults.baseURL = "http://localhost:5000";
 
 const root = document.getElementById("root");
 

@@ -67,7 +67,6 @@ class UserTodos extends Component {
 	  }
 
 	  showEditForm = ( id,
-		key,
 		description,
 		state,
 		user_id) => {
@@ -166,7 +165,6 @@ class UserTodos extends Component {
 					  (
 						{
 						  id,
-						  key,
 						  description,
 						  state,
 						  user_id
@@ -177,8 +175,6 @@ class UserTodos extends Component {
 						  <tr key={i}>
 							<td className="text-center">{i + 1}</td>
 							<td className="text-center">
-							  {key}
-							  <br />
 							  {description}
 							</td>
 							<td className="text-center">{state}</td>
@@ -200,7 +196,6 @@ class UserTodos extends Component {
 								className="btn-primary btn-block mt-2 pointer"
 								disabled={isUpdatingTask}
 								onClick={() => this.showEditForm(id,
-									key,
 									description,
 									state,
 									user_id)}

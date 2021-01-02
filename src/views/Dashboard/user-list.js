@@ -14,7 +14,7 @@ const UserList = ({ users, editUser, removeUser }) => (
 					</tr>
 				  </thead>
         <tbody>
-          {users.map(({ key, name }, index) => (
+          {users.map(({ name }, index) => (
             <tr key={`task-${index}`}>
               <td className="text-center">{index + 1}</td>
               <td className="text-center">{name}</td>
