@@ -19,7 +19,7 @@ npm i
 #### Step 3: Rename Env file
 
 1. Rename .env.sample file to .env
-2. Specified desired port in the .env file
+2. Specify desired port in the .env file
 
 #### Step 4: start the server
 
