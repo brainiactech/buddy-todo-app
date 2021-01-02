@@ -63,7 +63,7 @@ class Userform extends Component {
     this.setState({
       formData: users[index],
       currentTask: index,
-      edit: false
+      edit: true
     });
   };
 

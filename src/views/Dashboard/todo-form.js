@@ -68,7 +68,7 @@ class Todoform extends Component {
     this.setState({
       formData: tasks[index],
       currentTask: index,
-      edit: false
+      edit: true
     });
   };
 
@@ -189,11 +189,11 @@ class Todoform extends Component {
                   >
                     {edit ? (
                       <>
-                        <Icon type="edit" theme="outlined" /> Update Task
+                        <Icon type="edit" theme="outlined" /> Update Todo
                       </>
                     ) : (
                       <>
-                        <Icon type="plus" theme="outlined" /> Add Task
+                        <Icon type="plus" theme="outlined" /> Add Todo
                       </>
                     )}
                   </button>
