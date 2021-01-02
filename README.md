@@ -31,7 +31,7 @@ npm start
 3. After entering user details click Add User button
 4. Click Submit button to proceed
 
-Note: The steps above applies to Todo as well
+Note: 2 to 4 in Step 4 applies to Todo as well
 
 #### Step 5: Note
 
