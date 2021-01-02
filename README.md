@@ -16,7 +16,12 @@ cd buddy-todo-app
 npm i
 ```
 
-#### Step 3: start the server
+#### Step 3: Rename Env file
+
+1. Rename .env.sample file to .env
+2. Specified desired port in the .env file
+
+#### Step 4: start the server
 
 This will start the web app
 
@@ -24,7 +29,7 @@ This will start the web app
 npm start
 ```
 
-#### Step 4: Additional Info
+#### Step 5: Additional Info
 
 1. Once the APP loads, click on "Goto Dashboard"
 2. Click Add New Users to add new users
@@ -33,7 +38,7 @@ npm start
 
 Note: 2 to 4 in Step 4 applies to Todo as well
 
-#### Step 5: Note
+#### Step 6: Note
 
 1. You can create multiple users and todos at a time, keep adding users/todos and click Submit when you are done. 
 
